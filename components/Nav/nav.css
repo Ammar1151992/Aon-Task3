@@ -1,0 +1,206 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container-small{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav-all{
+    background-color: #028293f8;
+    padding: 10px;
+}
+
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.nav-head .nav-left{
+    display: flex;
+}
+
+.nav-head .nav-left img{
+    width: 50px;
+    margin-top: 8px;
+    margin-right: 2px;
+}
+
+.nav-head .nav-left .nav-border{
+    width: 60px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0 10px 0;
+    background-color: #00bcd5f8;
+    border: none;
+    border-radius: 8px;
+    margin-right: 38px;
+    margin-top: 14px;
+    color: #fff;
+    font-size: 45px;
+
+}
+
+.nav-head .nav-left ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-head .nav-left ul li a{
+    color: #fff;
+    margin-right: 38px;
+    font-size: 20px;
+}
+
+.nav-head .nav-left ul li .menu{
+    display: none;
+}
+
+
+.nav-head .nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-head .nav-right ul{
+    display: flex;
+}
+
+.nav-head .nav-right ul li a{
+    color: #fff;
+    margin-left: 38px;
+    font-size: 20px;
+}
+
+.nav-head .nav-right ul .border{
+    border: 2px solid #fff;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.nav-head .nav-right span{
+   font-weight: bold;
+   font-size: 38px;
+   color: #fff;
+}
+
+.nav-head .nav-right i{
+    color: #00bcd5f8;
+    margin-left: 38px;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 600){
+    .nav-all{
+        padding: 4px;
+    }
+
+    
+    .nav-head .nav-left img{
+        width: 30px;
+        margin-top: 4px;
+        margin-right: 0px;
+    }
+    
+    .nav-head .nav-left .nav-border{
+        width: 50px;
+        height: 14px;
+        padding: 0px 0 4px 0;
+        border-radius: 8px;
+        margin-right: 18px;
+        margin-top: 8px;
+        font-size: 30px;
+    
+    }
+    
+    .nav-head .nav-left ul li .a{
+        display: none;
+    }
+
+    
+    .nav-head .nav-right ul li a{
+        margin-left: 18px;
+        font-size: 18px;
+    }
+
+
+    .nav-head .nav-right ul .border{
+        border: 1px solid #fff;
+        padding: 2px;
+        border-radius: 6px;
+        margin-left: 18px;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .nav-head .nav-right span{
+       font-weight: bold;
+       font-size: 25px;
+       color: #fff;
+    }
+    
+    .nav-head .nav-right i{
+        margin-left: 18px;
+        font-size: 20px;
+        margin-right: 4px;
+    }
+
+        
+    .nav-head .nav-left ul li .menu{
+        display: inline;
+        width: 100%;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .notactive{
+        display: flex;
+        position: absolute;
+        max-height: 0;
+    }
+
+    .nav-head .nav-left ul li .menu .notactive .list-menu{
+        display: none;
+    }
+    .active{
+        display: flex;
+        position: absolute;
+        background: linear-gradient(to bottom, #00bcd5f8, #016176); /* Your gradient colors */
+        max-height: 100%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 40;
+        overflow: hidden;
+        max-height: 1000px ;
+        transition: max-height 0.3s ease-in-out;
+        z-index: 999;
+    }
+
+    .nav-head .nav-left ul li .menu .active .list-menu{
+        text-align: center;
+        width: 100%;
+        margin-top: 150px;
+        display: block;
+    }
+
+    .nav-head .nav-left ul li .menu .active .list-menu li{
+        margin-bottom: 75px;
+    }
+
+    .nav-head .nav-left ul li .menu .active .list-menu li a{
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+       
+    
+    
+}

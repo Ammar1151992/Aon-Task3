@@ -1,0 +1,310 @@
+.container-slider2{
+    max-width: 1350px;
+    margin: auto;
+}
+
+
+.slide2-parent{
+    position: relative;
+    margin-top: 50px;
+
+}
+
+
+.slide2-parent .overlay{
+    position: absolute;
+}
+
+.slide2-parent .overlay .flex-slide2{
+    /* white-space: nowrap;  */
+    overflow-x: auto;
+    display: flex;
+    max-width: 1350px;
+}
+.slide2-parent .overlay .flex-slide2 img{
+margin-right: 30px;
+border-radius: 10px;
+height: 200px;
+margin-top: 20px;
+} 
+
+.slide2-parent .overlay .flex-slide2 h2{
+    text-align: center;
+    margin-top: 6px;
+    color: #fff;
+} 
+
+
+.slide2-parent .overlay .flex-slide2 p{
+    text-align: center;
+    color: #d6d6d6;
+} 
+
+
+
+::-webkit-scrollbar {
+height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e3e3e3f8;
+    border-radius: 10px;
+}
+
+
+
+.container-ss{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.body-choose .select{
+    position: relative;
+}
+
+.body-choose .select2 span{
+    margin: 0 20px 0 25px;
+    z-index: 2;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+.body-choose .select span.selector0{
+    color: #000;
+ }
+ .body-choose .select span.selector1{
+    color: #000;
+ }
+ .body-choose .select span.selector2{
+    color: #000;
+ }
+ .body-choose .select span.selector3{
+    color: #000;
+ }
+
+
+
+
+ .body-choose .select span.selector0 .bg-select{
+    position: absolute;
+    width: 180px;
+    background: linear-gradient(to right, #00aec5f8, #006177); /* Your gradient colors */
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 20px;
+    z-index: -4;
+}
+
+.body-choose .select span.selector1 .bg-select{
+    position: absolute;
+    width: 120px;
+    background: linear-gradient(to right, #00aec5f8, #006177); /* Your gradient colors */
+    right: 20%;
+    left: 30%;
+    top: 0;
+    bottom: 0;
+    border-radius: 20px;
+    z-index: -4;
+
+}
+
+
+.body-choose .select span.selector2 .bg-select{
+    position: absolute;
+    width: 120px;
+    background: linear-gradient(to right, #00aec5f8, #006177); /* Your gradient colors */
+    left: 52%;
+    right: 48%;
+    top: 0;
+    bottom: 0;
+    border-radius: 20px;
+    z-index: -4;
+}
+
+
+.body-choose .select span.selector3 .bg-select{
+    position: absolute;
+    width: 150px;
+    background: linear-gradient(to right, #00aec5f8, #006177); /* Your gradient colors */
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 20px;
+    z-index: -4;
+}
+
+.slide2-parent .overlay .container-ss .body-choose p{
+    color: #fff;
+    
+}
+
+
+.parent-menu{
+    display: none;
+}
+
+
+@media screen and (max-width:600) {
+    .container-slider2{
+        max-width: 400px;
+    }
+    .slide2-parent{
+        max-width: 400px;
+    }
+    .slide2-parent .overlay .flex-slide2{
+        /* white-space: nowrap;  */
+        overflow-x: auto;
+        display: flex;
+        width: 400px;
+    }
+
+    .res{
+        width: 400px;
+        height: 200px;
+    }
+
+    .slide2-parent{
+        margin-top: 70px;
+    }
+    .slide2-parent .overlay .flex-slide2 img{
+    margin-right: 14px;
+    border-radius: 10px;
+    height: 100px;
+    margin-top: 40px;
+    } 
+    
+    .slide2-parent .overlay .flex-slide2 h2{
+        margin-top: 6px;
+        font-size: 10px;
+    } 
+    
+    
+    .slide2-parent .overlay .flex-slide2 p{
+        color: #d6d6d6;
+    } 
+    
+    
+    
+    .container-ss{
+        max-width: 300px;
+    }
+
+
+    .body-choose2 {
+        position: absolute;
+        margin-top: -50px;
+    }
+
+    .slide2-parent .overlay .container-ss .body-choose p{
+        color: #000;
+    }
+
+
+    .body-choose p{
+        color: #000;
+    }
+    .body-choose .select2{
+        
+        border-radius: 20px;
+        padding: 8px;
+    }
+
+    .body-choose .select2 span{
+        margin: 0 14px 0 14px;
+        font-size: 10px;
+        width: 100%;
+        color: #000;
+    }
+    
+     .body-choose .select span.selector0 .bg-select{
+        width: 70px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        border-radius: 20px;
+    }
+    
+    .body-choose .select span.selector1 .bg-select{
+        width: 60px;
+        right: 40%;
+        left: 25%;
+        top: 0;
+        bottom: 0;
+        border-radius: 10px;
+        z-index: -4;
+
+    }
+    
+    
+    .body-choose .select span.selector2 .bg-select{
+        width: 50px;
+        left: 52%;
+        right: 48%;
+        top: 0;
+        bottom: 0;
+        border-radius: 20px;
+        z-index: -4;
+    }
+    
+    
+    .body-choose .select span.selector3 .bg-select{
+        width: 50px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        border-radius: 20px;
+        z-index: -4;
+    }
+        
+    .parent-menu{
+        display: block;
+    }
+
+    .parent-menu i {
+        transform: rotate(-90deg);
+        margin-top: 6px;
+        background: none;
+    }
+
+    .parent-menu i.acivated {
+        transform: rotate(0deg);
+        transition: 0.3s;
+    }
+
+    .par-select{
+        display: none;
+    }
+
+    .notmenu-active{
+        display: none;
+    }
+
+    .menu-active .menu-act{
+        position: absolute;
+        height: 300px;
+        width: 180px;
+        background: linear-gradient(to bottom, #00bcd5f8, #016176); /* Your gradient colors */
+        margin-top: 20px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .menu-active .menu-act span{
+        display: block;
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+        color: #fff;
+        
+    }
+    .menu-active .menu-act span:hover{
+        background-color: #006177;
+        border-radius: 10px;
+    }
+
+
+}

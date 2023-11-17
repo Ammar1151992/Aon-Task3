@@ -1,0 +1,279 @@
+.contaiber-slider{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.body-choose{
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.body-choose .select{
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    border: 2px solid #00e1fff8;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+
+
+.body-choose p{
+    font-size: 34px;
+    margin-right: 20px;
+}
+
+
+.body-choose .select span{
+    margin: 0 20px 0 20px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.body-choose .select span.today{
+   color: #fff;
+}
+
+
+.body-choose .select span.thisWeek{
+    color: #fff;
+ }
+
+ .body-choose .select .bg-select{
+    width: 100%;
+ }
+
+
+ .body-choose .select span.thisWeek .bg-select{
+    position: absolute;
+    width: 150px;
+    background-color: #028293f8;
+    right: 40;
+    top: 0;
+    bottom: 0;
+    border-radius: 20px;
+    z-index: -4;
+    transform: translate(27%, -1%);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+
+.body-choose .select span.today .bg-select{
+    position: absolute;
+    width: 110px;
+    background-color: #028293f8;
+    left: 55;
+    top: 0;
+    bottom: 0;
+    border-radius: 20px;
+    z-index: -1;
+    transform: translate(-50%, -1%);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* Slider */
+
+/* CardSlider.css */
+
+.container-slide{
+  max-width: 1350px;
+  margin: auto;
+}
+.card-slider {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  
+  .cards-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .card-slider .cards-container .cart-content h3{
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+
+  .card-slider .cards-container .cart-content p{
+    font-size: 18px;
+    color: #7d7d7d;
+    margin-left: 10px;
+  }
+
+  
+
+  .container-slide .cards-container .overlay {
+    position: absolute;
+    right: 10;
+
+  }
+  
+
+
+  .container-slide .cards-container img {
+   border-radius: 18px;
+
+  }
+  
+  
+  .card {
+    position: relative;
+    flex: 0 0 20%;
+    margin: 14px;
+    transition: transform 0.3s ease-in-out;
+  
+  }
+  
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 35%;
+    font-size: 25px;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #00bcd5f8, #016176); /* Your gradient colors */
+    padding: 8px 14px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 0;
+    z-index: 55;
+  }
+  
+  .next {
+    right: 0px;
+  }
+
+
+  /* silder2 */
+
+  .contend-slider2{
+    position: relative;
+  }
+  .contend-slider2 .overlay{
+    position: absolute;
+  }
+
+  .contend-slider2 .img{
+    width: 100%;
+  }
+
+  .circly{
+    width: 40px;
+    margin-top: -25px;
+    margin-left: 10px;
+    background-color: #373737;
+    border-radius: 50%;
+    display: inline-flex;
+  }
+
+
+ @media screen and (max-width: 600){
+  .container-slide{
+    max-width: 350px;
+    z-index: -1;
+
+  }
+
+  
+    .card-slider .cards-container .cart-content h3{
+      margin-top: 20px;
+      font-size: 20px;
+    }
+
+    .card-slider .cards-container{
+      width: 100%;
+      overflow-x: auto;
+      overflow-y: none;
+      white-space: nowrap;
+
+    }
+
+  
+    .card-slider .cards-container .cart-content p{
+      font-size: 12px;
+      z-index: -1;
+
+    }
+
+    .container-slide .cards-container img {
+    width: 150px;   
+ }
+  
+  
+  
+    .card-slider .cards-container .circle-card span{
+     bottom: 4;
+    }
+
+  
+    
+    .card {
+      margin: 4px;
+      height: 150px;
+      margin: 0 10px;
+    }
+    
+    
+    .prev,
+    .next {
+     display: none;
+    }
+    
+
+
+  .contaiber-slider{
+      max-width: 300px;
+  }
+
+  
+  .body-choose .select{
+      font-size: 12px;
+      border: 1px solid #028293f8;
+      border-radius: 20px;
+      padding: 8px;
+  }
+  
+  .body-choose p{
+      font-size: 20px;
+      margin-right: 20px;
+  }
+  
+  .body-choose .select span{
+      margin: 0 8px 0 8px;
+  }
+  
+  
+   .body-choose .select span.thisWeek .bg-select{
+      width: 80px;
+      background-color: #028293f8;
+      right: 20;
+      border-radius: 20px;
+  }
+  
+  .body-choose .select span.today .bg-select{
+      position: absolute;
+      width: 60px;
+      left: 30;
+      border-radius: 20px;
+  }
+
+  .circly{
+    width: 20px;
+    margin-top: -16px;
+    margin-left: 10px;
+  }
+ } 
+
+  

@@ -1,0 +1,24 @@
+ .m i{
+    background-color: #d4d4d47d;
+    padding: 4px;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 18px;
+    display: flex;
+    cursor: pointer;
+   }
+
+   i:hover{
+    background-color: #00e1fff8;
+   }
+
+
+   
+     @media screen and (max-width:600) {
+      .m i{
+         padding: 4px;
+         margin: 6px;
+         font-size: 8px;
+        }
+     }
+ 

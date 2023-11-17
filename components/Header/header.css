@@ -1,0 +1,117 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container-mid{
+    max-width: 1350px;
+    margin: auto;
+}
+
+.container-head{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.header-parent{
+    position: relative;
+}
+
+
+.header-parent img{
+    width: 100%;
+}
+.header-parent .overlay{
+    position: absolute;
+    width: 100%;
+}
+
+.header-parent .overlay .header-content h1{
+    color: #fff;
+    font-size: 58px;
+    margin-top: 100px;
+}
+
+.header-parent .overlay .header-content p{
+    color: #fff;
+    font-size: 38px;
+    margin-bottom: 38px;
+}
+
+.header-parent .overlay .input{
+    width: 100%;
+    color: #fff;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header-parent .overlay .input input{
+   width: 100%;
+   font-size: 28px;
+   border: none;
+   border-radius: 20px;
+   padding: 10px 8px 10px 14px;
+   outline: none;
+}
+.header-parent .overlay .input button{
+    position: absolute;
+    font-size: 28px;
+    right: 0;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 14px 10px 14px;
+    background: linear-gradient(to right, #00bcd5f8, #007691); /* Your gradient colors */
+    color: #fff;
+
+ }
+
+ @media screen and (max-width: 600) {
+
+    .container-mid{
+        max-width: 400px;
+    }
+    
+    .container-head{
+        max-width: 300px;
+    }
+    .header-parent {
+       z-index: -1;
+    }
+
+
+.header-parent img{
+    height: 150px;
+}
+
+.header-parent .overlay .header-content h1{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.header-parent .overlay .header-content p{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+
+.header-parent .overlay .input input{
+   font-size: 12px;
+   padding: 8px 6px 8px 10px;
+}
+.header-parent .overlay .input button{
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 8px 10px 8px 10px;
+
+ }
+ }
+
+
+ 
+
